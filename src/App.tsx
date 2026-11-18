@@ -28,7 +28,7 @@ const ZONES = [
     kicker: "BUILD THE ENGINE",
     copy: "Calibrated bars, competition plates and platforms. Programmed strength work with a coach who knows exactly what you lifted last week.",
     tags: ["POWERLIFTING", "OLYMPIC LIFTS", "PROGRAMMING"],
-    image: "/images/zone-strength.webp",
+    image: "/gym/images/zone-strength.webp",
     alt: "A muscular man preparing for a heavy barbell squat inside a dark gym",
   },
   {
@@ -37,7 +37,7 @@ const ZONES = [
     kicker: "TRAIN THE PATTERN",
     copy: "Carries, sleds, ropes and rig work. Movement that transfers out of the gym and into the rest of your life. No gimmicks. Just useful force.",
     tags: ["SLEDS", "CARRIES", "RIG WORK"],
-    image: "/images/zone-functional.webp",
+    image: "/gym/images/zone-functional.webp",
     alt: "A man performing a heavy dumbbell farmer carry in a dimly lit gym",
   },
   {
@@ -46,7 +46,7 @@ const ZONES = [
     kicker: "EXPAND THE LIMIT",
     copy: "Assault bikes, rowers and treadmills kept deliberately uncrowded. Structured conditioning blocks that build capacity without eating your strength.",
     tags: ["ENGINE WORK", "INTERVALS", "ZONE 2"],
-    image: "/images/zone-cardio.webp",
+    image: "/gym/images/zone-cardio.webp",
     alt: "A male athlete training on an air bike inside a moody industrial gym",
   },
   {
@@ -55,7 +55,7 @@ const ZONES = [
     kicker: "REMOVE THE GUESSWORK",
     copy: "One coach. One plan. Total attention. Weekly programming, technique work and honest feedback built around your body and your calendar.",
     tags: ["1:1 COACHING", "ASSESSMENTS", "ACCOUNTABILITY"],
-    image: "/images/zone-personal.webp",
+    image: "/gym/images/zone-personal.webp",
     alt: "A male coach watching a male athlete rest between cable exercises in a dark gym",
   },
 ];
@@ -118,7 +118,7 @@ const COACHES = [
     credential: "CSCS · USAW",
     specialties: ["POWERLIFTING", "HYPERTROPHY", "RETURN TO LIFT"],
     quote: "Strength is a skill. We train it like one.",
-    image: "/images/trainer-1.webp",
+    image: "/gym/images/trainer-1.webp",
     alt: "Portrait of a muscular male strength coach with folded arms in a dark gym",
   },
   {
@@ -128,7 +128,7 @@ const COACHES = [
     credential: "MSc · S&C",
     specialties: ["ATHLETIC PERFORMANCE", "SPEED", "CONDITIONING"],
     quote: "You don't rise to the occasion. You fall to your preparation.",
-    image: "/images/trainer-2.webp",
+    image: "/gym/images/trainer-2.webp",
     alt: "Black and white portrait of a powerful male performance coach in a gym",
   },
   {
@@ -138,7 +138,7 @@ const COACHES = [
     credential: "PN2 · MOVE",
     specialties: ["FAT LOSS", "ENDURANCE", "MOBILITY"],
     quote: "Discipline is choosing what you want most over what you want now.",
-    image: "/images/trainer-3.webp",
+    image: "/gym/images/trainer-3.webp",
     alt: "Portrait of a male conditioning coach in a black coach shirt in a modern gym",
   },
 ];
@@ -529,7 +529,7 @@ function Hero({ onJoin }: { onJoin: () => void }) {
     <section className="hero" id="top" ref={ref} aria-label="Iron District">
       <div className="hero__media">
         <img
-          src="/images/hero.webp"
+          src="/gym/images/hero.webp"
           alt="A focused male athlete pressing a barbell in a dark, industrial gym"
           fetchPriority="high"
           decoding="async"
@@ -679,7 +679,7 @@ function District() {
         <div className="district__visual">
           <figure className="district__image reveal-image">
             <img
-              src="/images/district.webp"
+              src="/gym/images/district.webp"
               alt="A male athlete crouching behind a loaded barbell in a warm-lit industrial gym"
               loading="lazy"
               decoding="async"
@@ -691,7 +691,7 @@ function District() {
           </figure>
           <figure className="district__detail reveal-image" aria-hidden="true">
             <img
-              src="/images/district-detail.webp"
+              src="/gym/images/district-detail.webp"
               alt=""
               loading="lazy"
               decoding="async"
@@ -1301,7 +1301,7 @@ function FinalCTA({ onJoin }: { onJoin: () => void }) {
   return (
     <section id="join" className="final-cta">
       <div className="final-cta__media" aria-hidden="true">
-        <img src="/images/cta.webp" alt="" loading="lazy" decoding="async" />
+        <img src="/gym/images/cta.webp" alt="" loading="lazy" decoding="async" />
       </div>
       <div className="final-cta__veil" aria-hidden="true" />
       <div className="final-cta__inner">
